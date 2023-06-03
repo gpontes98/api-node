@@ -1,0 +1,18 @@
+version: "3"
+services:
+  db-sqlite:
+    image: gabrielpontes/sqlite-node-app:latest
+    ports:
+      - "8000:8000"
+    networks:
+      - tech-challenge
+
+  api-node:
+    image: gabrielpontes/api-node:latest
+    ports:
+      - "3000:3000"
+    networks:
+      - tech-challenge
+
+networks:
+  tech-challenge:
