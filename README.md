@@ -14,5 +14,5 @@ O objetivo desse projeto é demonstrar a dockerização de aplicações e a inte
 
 ## Como testar?
 
-Basta executar o comando docker-compose up no diretório onde o arquivo docker-compose.yml está localizado.
+Basta executar o comando docker-compose up no diretório onde o arquivo docker-compose.yml está localizado e fazer o get na rota http://localhost:3000/languages
 
